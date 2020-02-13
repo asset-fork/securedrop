@@ -49,7 +49,6 @@ RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckod
 
 COPY requirements requirements
 RUN python3 -m venv /opt/venvs/securedrop-app-code && \
-    /opt/venvs/securedrop-app-code/bin/pip3 install --require-hashes -r requirements/python3/docker-requirements.txt && \
     /opt/venvs/securedrop-app-code/bin/pip3 install --require-hashes -r requirements/python3/securedrop-app-code-requirements.txt && \
     /opt/venvs/securedrop-app-code/bin/pip3 install --require-hashes -r requirements/python3/test-requirements.txt
 
