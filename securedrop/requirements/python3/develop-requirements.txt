@@ -155,10 +155,9 @@ chardet==3.0.4 \
 click-completion==0.3.1 \
     --hash=sha256:7ca12978493a7450486cef155845af4fae48744c3f97b7250a254de65c9e5e5a \
     # via molecule
-click==6.7 \
-    --hash=sha256:29f99fc6125fbc931b758dc053b3114e55c77a6e4c6c3a2674a2dc986016381d \
-    --hash=sha256:f15516df478d5a56180fbf80e68f206010e6d160fc39fa508b65e035fd75130b \
-    # via click-completion, cookiecutter, git-url-parse, molecule, pip-tools, python-gilt, safety
+click==7.0 \
+    --hash=sha256:2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13 \
+    --hash=sha256:5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7
 colorama==0.3.9 \
     --hash=sha256:463f8483208e921368c9f306094eb6f725c6ca42b0f97e313cb5d5512459feda \
     --hash=sha256:48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1 \
@@ -254,6 +253,10 @@ imagesize==0.7.1 \
 importlib-metadata==0.23 \
     --hash=sha256:aa18d7378b00b40847790e7c27e11673d7fed219354109d0e7b9e5b25dc3ad26 \
     --hash=sha256:d5f18a79777f3aa179c145737780282e27b508fc8fd688cb17c7a813e8bd39af \
+    # via pre-commit
+importlib-resources==1.0.2 \
+    --hash=sha256:6e2783b2538bd5a14678284a3962b0660c715e5a0f10243fd5e00a4b5974f50b \
+    --hash=sha256:d3279fd0f6f847cced9f7acc19bd3e5df54d34f93a2e7bb5f238f81545787078 \
     # via pre-commit
 isort==4.2.15 \
     --hash=sha256:79f46172d3a4e2e53e7016e663cc7a8b538bec525c36675fcfd2767df30b3983 \
