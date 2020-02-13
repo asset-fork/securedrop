@@ -32,7 +32,6 @@ override_dh_virtualenv:
 		--extra-pip-arg "--ignore-installed" \
 		--extra-pip-arg "--no-deps" \
 		--extra-pip-arg "--no-cache-dir" \
-		--extra-pip-arg "--require-hashes" \
 		--extra-pip-arg "--no-compile"
 
 #
